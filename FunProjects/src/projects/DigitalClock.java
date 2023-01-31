@@ -60,12 +60,7 @@ public class DigitalClock extends JFrame {
             
             System.out.println(timeLabel.getText());
             String time = timeLabel.getText();
-            String givenTime = "12:12:13 PM";
-            if(time.equals(givenTime)) {
-            	timeLabel.setBackground(Color.CYAN);
-            }else {
-            	
-            }
+            
             
             try {
                 Thread.sleep(1000);
